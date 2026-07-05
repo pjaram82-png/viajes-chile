@@ -1,0 +1,41 @@
+/* Configuración General y Tipografía */
+body {
+    background-color: #000000;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Navbar adaptativa con cambio de fondo */
+.navbar {
+    transition: background-color 0.5s ease;
+}
+
+.navbar.navbar-scrolled {
+    background-color: #0dcaf0 !important; /* bg-info color */
+}
+
+/* Forzar altura uniforme en las imágenes de las cards */
+.card-img-fixed {
+    height: 180px;
+    object-fit: cover;
+}
+
+/* Estilos de formulario */
+.max-w-form {
+    max-width: 800px;
+}
+
+.form-control:focus {
+    background-color: transparent;
+    color: #ffffff;
+    border-color: #0dcaf0;
+    box-shadow: 0 0 0 0.25rem rgba(13, 202, 240, 0.25);
+}
+
+/* Clases Utilitarias de apoyo */
+.uppercase {
+    text-transform: uppercase;
+}
+
+.tracking-wider {
+    letter-spacing: 0.1em;
+}
