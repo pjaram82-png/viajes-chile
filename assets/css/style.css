@@ -12,6 +12,10 @@ body {
 .navbar.navbar-scrolled {
     background-color: #0dcaf0 !important; /* bg-info color */
 }
+.navbar.navbar-scrolled .nav-link,
+.navbar.navbar-scrolled .navbar-brand {
+    color: #000000 !important;
+}
 
 /* Forzar altura uniforme en las imágenes de las cards */
 .card-img-fixed {
